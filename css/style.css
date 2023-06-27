@@ -105,17 +105,38 @@ span.bookmark {
     background-color: rgb(41, 151, 247);
 }
 
-/* div.today {
-    height: auto;
-    padding-left: 50px;
-    margin-bottom: 30px;
+:root {
+    --bookmark-blue: #2997f7;
+    --bookmark-violet: #7829f7;
+    --bookmark-green: #079f49;
+    --bookmark-orange: #ffa500;
+    --bookmark-pink: #ff00c3;
+    --bookmark-lightgreeen: #2afd00;
 }
 
-div.upcoming {
-    height: auto;
-    padding-left: 50px;
-    margin-bottom: 30px;
-} */
+span.bk_blue {
+    background-color: var(--bookmark-blue);
+}
+
+span.bk_violet {
+    background-color: var(--bookmark-violet);
+}
+
+span.bk_green {
+    background-color: var(--bookmark-green);
+}
+
+span.bk_orange {
+    background-color: var(--bookmark-orange);
+}
+
+span.bk_pink {
+    background-color: var(--bookmark-pink);
+}
+
+span.bk_lightgreen {
+    background-color: var(--bookmark-lightgreeen);
+}
 
 
 
