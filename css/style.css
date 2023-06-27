@@ -13,28 +13,26 @@
 
 div.header {
     width: 100%;
-    height: 80px;   
+    height: auto;
     margin-top: 80px;
     background-color: white;
 }
 
 img {
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px 5px 20px 20px;
     vertical-align: middle;
 }
 
-span {
+span.title {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     font-weight: 600;
-    line-height: 80px;
+    vertical-align: middle;
 }
 
 #main {
-    border: 1px solid black;
     width: 70%;
-    height: 50vh;
+    height: auto;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -42,11 +40,11 @@ span {
 div.options {
     width: 100%;
     height: 5vh;  
+    line-height: 5vh;
     border-radius: 5px 5px;
     background-color: white;
-    line-height: 5vh;
     padding-left: 50px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
 }
 
 input.first {
@@ -66,6 +64,58 @@ input.second {
     color: grey;
     background-color: transparent;
 }
+
+#section {
+    width: 100%;
+    height: 470px;
+    border-radius: 5px 5px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+div.selection {
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+span.triangle {
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.indication {
+    margin-top: 10px;
+}
+
+span.bookmark {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(41, 151, 247);
+}
+
+/* div.today {
+    height: auto;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+div.upcoming {
+    height: auto;
+    padding-left: 50px;
+    margin-bottom: 30px;
+} */
 
 
 
